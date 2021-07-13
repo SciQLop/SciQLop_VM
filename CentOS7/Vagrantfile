@@ -96,6 +96,6 @@ Vagrant.configure("2") do |config|
     LIBRARY_PATH=/opt/libclang_60/lib/ LD_LIBRARY_PATH=/opt/libclang_60/lib/ PATH=/home/vagrant/Qt/5.12.2/gcc_64/bin/:$PATH meson . build 
     cd build
     LIBRARY_PATH=/opt/libclang_60/lib/ LD_LIBRARY_PATH=/opt/libclang_60/lib/ ninja -j 4
-    echo 'LD_LIBRARY_PATH=/opt/libclang_60/lib/:/home/vagrant/Qt/5.12.2/gcc_64/lib/ python3 main.py' > /home/vagrant/SciQLOP_build/SciQLop/build/app/PySide2-bindings
+    echo 'LD_LIBRARY_PATH=/opt/libclang_60/lib/:/home/vagrant/Qt/5.12.2/gcc_64/lib/ python3 main.py' > /home/vagrant/SciQLOP_build/SciQLop/build/app/PySide2-bindings/start.sh
   SHELL
 end
